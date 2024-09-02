@@ -1,0 +1,16 @@
+{
+  "name": "leetcode-stats-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for fetching LeetCode user statistics",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maniya Devagn",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
